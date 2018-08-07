@@ -1,0 +1,6 @@
+framework module Pods_ShimmerBlocks_Example {
+  umbrella header "Pods-ShimmerBlocks_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

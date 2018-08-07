@@ -1,0 +1,6 @@
+framework module ShimmerBlocks {
+  umbrella header "ShimmerBlocks-umbrella.h"
+
+  export *
+  module * { export * }
+}

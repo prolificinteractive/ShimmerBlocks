@@ -1,0 +1,22 @@
+{
+  "name": "ShimmerBlocks",
+  "version": "0.1.0",
+  "summary": "A short description of ShimmerBlocks.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jgsamudio/ShimmerBlocks",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jgsamudio": "jonathan2457@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jgsamudio/ShimmerBlocks.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ShimmerBlocks/Classes/**/*"
+}
