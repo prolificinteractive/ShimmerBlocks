@@ -8,6 +8,7 @@
 
 import UIKit
 import Shimmer
+import PureLayout
 
 final class ShimmerContainer {
 

@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ShimmerBlocks/Classes/**/*'
   
-  s.dependency 'Shimmer', '~> 1.02'
+  s.dependency 'Shimmer', '~> 1.0.2'
+  s.dependency 'PureLayout', '~> 3.0.2'
 
 end
