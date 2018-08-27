@@ -10,7 +10,7 @@ import UIKit
 import Shimmer
 import PureLayout
 
-final class ShimmerContainer {
+public class ShimmerContainer {
 
     // MARK: - Private Properties
 
@@ -23,7 +23,7 @@ final class ShimmerContainer {
     /// Initializes the shimmer container class.
     ///
     /// - Parameter parentView: Parent view to apply the shimmer with.
-    init(parentView: UIView?) {
+    public init(parentView: UIView?) {
         self.parentView = parentView
     }
 
@@ -35,7 +35,7 @@ final class ShimmerContainer {
     ///   - image: Optional image to use.
     ///   - backgroundColor: Background color of the shimmer block.
     /// - Returns: Shimmering view.
-    static func generateShimmerView(image: UIImage? = nil, backgroundColor: UIColor) -> UIView {
+    public static func generateShimmerView(image: UIImage? = nil, backgroundColor: UIColor) -> UIView {
         let shimmerView = FBShimmeringView()
         var contentView = UIView()
 
@@ -58,7 +58,7 @@ final class ShimmerContainer {
     /// - Parameters:
     ///   - enable: Enables the views to shimmer.
     ///   - shimmerData: Shimmer data used to apply the shimmer.
-    func applyShimmer(enable: Bool, with shimmerData: [ShimmerData]) {
+    public func applyShimmer(enable: Bool, with shimmerData: [ShimmerData]) {
         if enable {
             applyShimmer(with: shimmerData)
         } else {

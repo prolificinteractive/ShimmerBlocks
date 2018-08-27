@@ -8,37 +8,37 @@
 
 import UIKit
 
-final class ShimmerData {
+public class ShimmerData {
 
     // MARK: - Public Properties
 
     /// View to add shimmer overlay to.
-    weak var view: UIView?
+    public weak var view: UIView?
 
     /// Spacing between each section.
-    let sectionSpacing: CGFloat
+    public let sectionSpacing: CGFloat
 
     /// Sets the container view size to match the provided view's size.
-    let matchViewDimensions: Bool
+    public let matchViewDimensions: Bool
 
     /// Image to apply to the overlay instead of using a blocked section.
-    let image: UIImage?
+    public let image: UIImage?
 
     /// Sections to display over the provided view.
-    let sections: [ShimmerSection]
+    public let sections: [ShimmerSection]
 
     /// Background color of the overlay sections. Does not overlay the image.
-    let backgroundColor: UIColor
+    public let backgroundColor: UIColor
 
     // MARK: - Initialization
 
-    init(_ view: UIView?,
-         sectionSpacing: CGFloat = 6,
-         maxNumberOfSections: Int = 3,
+    public init(_ view: UIView?,
+         sectionSpacing: CGFloat = 0,
+         maxNumberOfSections: Int = 0,
          matchViewDimensions: Bool = false,
          image: UIImage? = nil,
          sections: [ShimmerSection] = [],
-         backgroundColor: UIColor = UIColor.lightGray) {
+         backgroundColor: UIColor = UIColor.lightGray.withAlphaComponent(0.3)) {
 
         self.view = view
         self.sectionSpacing = sectionSpacing

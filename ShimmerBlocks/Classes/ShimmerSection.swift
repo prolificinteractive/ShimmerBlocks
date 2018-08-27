@@ -10,15 +10,15 @@ import UIKit
 
 private typealias Range = (lowerBounds: Int, upperBounds: Int)
 
-struct ShimmerSection {
+public struct ShimmerSection {
 
     // MARK: - Public Properties
 
     /// Width of the shimmer section.
-    let width: CGFloat
+    public let width: CGFloat
 
     /// Height of the shimmer section.
-    let height: CGFloat
+    public let height: CGFloat
 
     // MARK: - Public Functions
 
@@ -30,7 +30,7 @@ struct ShimmerSection {
     ///   - totalWidth: The total width of the combined sections.
     ///   - maxNumberOfSections: The maximum number of sections to render, used by the random generator.
     /// - Returns: Array of sections to display.
-    static func generate(minWidth: CGFloat,
+    public static func generate(minWidth: CGFloat,
                          height: CGFloat,
                          totalWidth: CGFloat,
                          maxNumberOfSections: Int) -> [ShimmerSection] {
