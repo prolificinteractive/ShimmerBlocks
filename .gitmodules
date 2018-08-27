@@ -1,0 +1,3 @@
+[submodule "Example/DevKit"]
+	path = Example/DevKit
+	url = https://github.com/prolificinteractive/DevKit

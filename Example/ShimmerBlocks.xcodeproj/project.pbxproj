@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20841979213480E800BCB820 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20841978213480E800BCB820 /* InfoTableViewCell.swift */; };
+		2084198621348B9E00BCB820 /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2084198521348B9E00BCB820 /* InfoTableViewCell.xib */; };
 		53D702705DE40B10B9DBF22A /* Pods_ShimmerBlocks_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7237C207C4FA026708885C1A /* Pods_ShimmerBlocks_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20841978213480E800BCB820 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		2084198521348B9E00BCB820 /* InfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
 		21E1DE2E290782955E9B077D /* Pods-ShimmerBlocks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShimmerBlocks_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShimmerBlocks_Example/Pods-ShimmerBlocks_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ShimmerBlocks_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerBlocks_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +45,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7237C207C4FA026708885C1A /* Pods_ShimmerBlocks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShimmerBlocks_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		752A5C6FA431A16A9605D769 /* Pods-ShimmerBlocks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShimmerBlocks_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShimmerBlocks_Example/Pods-ShimmerBlocks_Example.release.xcconfig"; sourceTree = "<group>"; };
-		84F0C0CCA1AFDD010DC1B24B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		87364F38A547AC2B785738DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		84F0C0CCA1AFDD010DC1B24B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		87364F38A547AC2B785738DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8C4F6823C2EE4E54184DD179 /* Pods-ShimmerBlocks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShimmerBlocks_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShimmerBlocks_Tests/Pods-ShimmerBlocks_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		946E7138539222E0ED510BE7 /* Pods-ShimmerBlocks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShimmerBlocks_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShimmerBlocks_Tests/Pods-ShimmerBlocks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9F7655917EDD45A6FE135516 /* ShimmerBlocks.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ShimmerBlocks.podspec; path = ../ShimmerBlocks.podspec; sourceTree = "<group>"; };
+		9F7655917EDD45A6FE135516 /* ShimmerBlocks.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ShimmerBlocks.podspec; path = ../ShimmerBlocks.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAAD6B55D2C4B29EE89B8349 /* Pods_ShimmerBlocks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShimmerBlocks_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20841984213489A800BCB820 /* InfoTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				20841978213480E800BCB820 /* InfoTableViewCell.swift */,
+				2084198521348B9E00BCB820 /* InfoTableViewCell.xib */,
+			);
+			name = InfoTableViewCell;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				20841984213489A800BCB820 /* InfoTableViewCell */,
 			);
 			name = "Example for ShimmerBlocks";
 			path = ShimmerBlocks;
@@ -246,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				2084198621348B9E00BCB820 /* InfoTableViewCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -286,10 +301,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ShimmerBlocks_Example/Pods-ShimmerBlocks_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DevKit/DevKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework",
 				"${BUILT_PRODUCTS_DIR}/ShimmerBlocks/ShimmerBlocks.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DevKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shimmer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ShimmerBlocks.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20841979213480E800BCB820 /* InfoTableViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -470,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShimmerBlocks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -485,6 +508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShimmerBlocks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

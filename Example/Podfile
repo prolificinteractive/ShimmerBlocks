@@ -1,11 +1,18 @@
+platform :ios, '9.0'
+
 use_frameworks!
 
 target 'ShimmerBlocks_Example' do
+
   pod 'ShimmerBlocks', :path => '../'
+
+  pod 'DevKit', :path => './DevKit', :subspecs => ['Extensions/UITableViewCellExtension',
+                                                   'Extensions/UITableViewExtension']
+
+  pod 'PureLayout', '3.0.2'
 
   target 'ShimmerBlocks_Tests' do
     inherit! :search_paths
-
     
   end
 end

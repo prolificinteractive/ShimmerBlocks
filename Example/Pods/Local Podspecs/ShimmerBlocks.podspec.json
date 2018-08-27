@@ -16,7 +16,15 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "ShimmerBlocks/Classes/**/*"
+  "source_files": "ShimmerBlocks/Classes/**/*",
+  "dependencies": {
+    "Shimmer": [
+      "~> 1.0.2"
+    ],
+    "PureLayout": [
+      "~> 3.0.2"
+    ]
+  }
 }

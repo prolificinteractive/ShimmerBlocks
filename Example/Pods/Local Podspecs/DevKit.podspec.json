@@ -1,0 +1,121 @@
+{
+  "name": "DevKit",
+  "version": "0.1.0",
+  "summary": "A short description of DevKit.",
+  "description": "Collection of commonly used swift code.",
+  "homepage": "https://github.com/prolificinteractive/DevKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jgsamudio": "jonathan2457@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/prolificinteractive/DevKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DevKit/DevKit/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "TransitioningNavigationView",
+      "dependencies": {
+        "DevKit/SharedOptions/ShadowOptions": [
+
+        ],
+        "PureLayout": [
+          "~> 3.0.2"
+        ],
+        "Marker": [
+          "~> 1.1.0"
+        ]
+      },
+      "source_files": "DevKit/DevKit/Classes/Views/TransitioningNavigationView/*"
+    },
+    {
+      "name": "CalendarPermissionsValidator",
+      "platforms": {
+        "ios": "11.0"
+      },
+      "dependencies": {
+        "DevKit/Extensions/StringExtension": [
+
+        ],
+        "DevKit/Extensions/UIAlertControllerExtension": [
+
+        ],
+        "DevKit/Extensions/UIApplicationExtension": [
+
+        ]
+      },
+      "source_files": "DevKit/DevKit/Classes/Utility/Validators/CalendarPermissionsValidator/*"
+    },
+    {
+      "name": "ImagePickerValidator",
+      "dependencies": {
+        "DevKit/Extensions/StringExtension": [
+
+        ]
+      },
+      "source_files": "DevKit/DevKit/Classes/Utility/Validators/ImagePickerValidator/*"
+    },
+    {
+      "name": "Protocols",
+      "subspecs": [
+        {
+          "name": "KeyboardObserver",
+          "source_files": "DevKit/DevKit/Classes/Protocols/KeyboardObserver/*"
+        },
+        {
+          "name": "ReusableView",
+          "source_files": "DevKit/DevKit/Classes/Protocols/ReusableView/*"
+        }
+      ]
+    },
+    {
+      "name": "Extensions",
+      "dependencies": {
+        "DevKit/Protocols/ReusableView": [
+
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "StringExtension",
+          "source_files": "DevKit/DevKit/Classes/Extensions/StringExtension/*"
+        },
+        {
+          "name": "UIAlertControllerExtension",
+          "source_files": "DevKit/DevKit/Classes/Extensions/UIAlertControllerExtension/*"
+        },
+        {
+          "name": "UIApplicationExtension",
+          "platforms": {
+            "ios": "11.0"
+          },
+          "source_files": "DevKit/DevKit/Classes/Extensions/UIApplicationExtension/*"
+        },
+        {
+          "name": "UITableViewCellExtension",
+          "source_files": "DevKit/DevKit/Classes/Extensions/UITableViewCellExtension/*"
+        },
+        {
+          "name": "UITableViewExtension",
+          "source_files": "DevKit/DevKit/Classes/Extensions/UITableViewExtension/*"
+        }
+      ]
+    },
+    {
+      "name": "SharedOptions",
+      "subspecs": [
+        {
+          "name": "ShadowOptions",
+          "source_files": "DevKit/DevKit/Classes/SharedOptions/ShadowOptions.swift"
+        }
+      ]
+    }
+  ]
+}
