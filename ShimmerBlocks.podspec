@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/jgsamudio/ShimmerBlocks'
+  s.homepage         = 'https://github.com/prolificinteractive/ShimmerBlocks'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jgsamudio' => 'jonathan2457@gmail.com' }
-  s.source           = { :git => 'https://github.com/jgsamudio/ShimmerBlocks.git', :tag => s.version.to_s }
+  s.author           = { 'jgsamudio' => 'jonathan@prolificinteractive.com' }
+  s.source           = { :git => 'https://github.com/prolificinteractive/ShimmerBlocks.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
