@@ -41,6 +41,16 @@ public struct ShimmerSection {
                                 numberOfSections: numberOfSections)
     }
 
+    /// Default initializer for the ShimmerSection.
+    ///
+    /// - Parameters:
+    ///   - width: Shimmer Block width.
+    ///   - height: Shimmer Block height.
+    public init(width: CGFloat, height: CGFloat) {
+        self.width = width
+        self.height = height
+    }
+    
 }
 
 // MARK: - Private Functions
