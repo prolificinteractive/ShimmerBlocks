@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ShimmerBlocks'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Add blocked shimmering views to your view components.'
 
   s.description      = <<-DESC
