@@ -33,7 +33,7 @@ public class ShimmerData {
     // MARK: - Initialization
 
     public init(_ view: UIView?,
-                sectionSpacing: CGFloat = 0,
+                sectionSpacing: CGFloat = 6,
                 matchViewDimensions: Bool = false,
                 image: UIImage? = nil,
                 sections: [ShimmerSection] = [],
