@@ -1,3 +1,8 @@
+[![Travis build status](https://img.shields.io/travis/prolificinteractive/ShimmerBlocks.svg?style=flat-square)](https://travis-ci.org/prolificinteractive/ShimmerBlocks)
+[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/ShimmerBlocks.svg?style=flat-square)](https://img.shields.io/cocoapods/v/ShimmerBlocks.svg)
+[![Platform](https://img.shields.io/cocoapods/p/ShimmerBlocks.svg?style=flat-square)](http://cocoadocs.org/docsets/ShimmerBlocks)
+[![Docs](https://img.shields.io/cocoapods/metrics/doc-percent/ShimmerBlocks.svg?style=flat-square)](http://cocoadocs.org/docsets/ShimmerBlocks)
+
 # ShimmerBlocks
 
 Add blocked shimmering views to your view components. 
