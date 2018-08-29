@@ -33,13 +33,11 @@ public class ShimmerData {
     // MARK: - Initialization
 
     public init(_ view: UIView?,
-         sectionSpacing: CGFloat = 0,
-         maxNumberOfSections: Int = 0,
-         matchViewDimensions: Bool = false,
-         image: UIImage? = nil,
-         sections: [ShimmerSection] = [],
-         backgroundColor: UIColor = UIColor.lightGray.withAlphaComponent(0.3)) {
-
+                sectionSpacing: CGFloat = 0,
+                matchViewDimensions: Bool = false,
+                image: UIImage? = nil,
+                sections: [ShimmerSection] = [],
+                backgroundColor: UIColor = UIColor.lightGray.withAlphaComponent(0.3)) {
         self.view = view
         self.sectionSpacing = sectionSpacing
         self.matchViewDimensions = matchViewDimensions
