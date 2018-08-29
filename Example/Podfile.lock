@@ -1,9 +1,7 @@
 PODS:
-  - DevKit/Extensions/UITableViewCellExtension (0.1.0):
-    - DevKit/Protocols/ReusableView
   - DevKit/Extensions/UITableViewExtension (0.1.0):
-    - DevKit/Protocols/ReusableView
-  - DevKit/Protocols/ReusableView (0.1.0)
+    - DevKit/Utility/ReusableView
+  - DevKit/Utility/ReusableView (0.1.0)
   - PureLayout (3.0.2)
   - Shimmer (1.0.2)
   - ShimmerBlocks (0.1.0):
@@ -11,7 +9,6 @@ PODS:
     - Shimmer (~> 1.0.2)
 
 DEPENDENCIES:
-  - DevKit/Extensions/UITableViewCellExtension (from `./DevKit`)
   - DevKit/Extensions/UITableViewExtension (from `./DevKit`)
   - PureLayout (= 3.0.2)
   - ShimmerBlocks (from `../`)
@@ -28,11 +25,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DevKit: a38be6866edfd1bd9abdfcab5b8b433ef94df96e
+  DevKit: 3d03cdcd447fb36be2d615491acb9ad6dd932f23
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
   ShimmerBlocks: a23a9b97dd26a2c0b9402ca85e8666ec0e415a30
 
-PODFILE CHECKSUM: 5baa0991f16091720f7891f3738858076d1342c8
+PODFILE CHECKSUM: fc65b204f3100067758adcc9dc10c66ba7f09456
 
 COCOAPODS: 1.5.0

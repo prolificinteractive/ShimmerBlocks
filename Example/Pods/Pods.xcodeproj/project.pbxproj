@@ -7,31 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		026629F5AED204E60BCDCF8BC9B3C50F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BD068AC2725E18B3B0AD32CE35C1D /* Foundation.framework */; };
-		10CA8D25CD345A6648C54B4697B4E6E6 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B6246BCE3E85C230C09B318CB211D /* UITableViewExtension.swift */; };
 		1CAC38321C374DFC11D28F15B33FDFA7 /* Shimmer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6687B1018DC715A8B65093292EFC56 /* Shimmer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F572C97B0D13E82A84D6FFB3204505E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BD068AC2725E18B3B0AD32CE35C1D /* Foundation.framework */; };
 		20B744F33D8E576DC82FAE618674EC84 /* Shimmer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FB71C062209A455573DA80B2BFFCCC /* Shimmer-dummy.m */; };
-		27D3E36B8B18889542ED3224C75690C8 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312B6A3F8A88F2B9E71B3080395C0582 /* UITableViewCellExtension.swift */; };
+		252EE82C05018332AE5F47FB95CF3C2C /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE79ED08385CC7EB1411ED69680C18 /* UITableViewExtension.swift */; };
+		340667FD389DEDD943363BA6FDCC9DF4 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67E9DF958C0E3567322255C9FE48B85 /* ReusableView.swift */; };
 		3BF1D009CC5BDBCE4B13EBE75BD383CA /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B2230BDD8D3DCAF19835F48DD60B0 /* PureLayout-dummy.m */; };
 		48A0DF3869B222AB0AAC9ED20F2690CE /* Pods-ShimmerBlocks_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F33F19D8534BEE29CD83FC7F41F68C /* Pods-ShimmerBlocks_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B01FE21C545D7749F07DFEBD32E49FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BD068AC2725E18B3B0AD32CE35C1D /* Foundation.framework */; };
 		501BF251E248BE0F34C422C70FC41F92 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1740320392D2228CD48A7A2ADFE5B0D7 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50F94FE25EBDD8B5B7E0AF9EE0238B5E /* DevKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E82A7582B912A13E7D2C11CF83FC305A /* DevKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51AFC23F4E2B0E3FA5B72451C6D14B12 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 550A35273A32785B8B4E35238B0A4E80 /* NSArray+PureLayout.m */; };
 		54E5E0D9CD8950FBE03F129F10AB6278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BD068AC2725E18B3B0AD32CE35C1D /* Foundation.framework */; };
+		5D0B714332260E2A07B48AA3A4A08728 /* DevKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F0C8DF7934BCE8CFD4C6325252FD7 /* DevKit-dummy.m */; };
 		6D340B85224227A94DC1E336543F0D76 /* ShimmerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE986D093B57651B277B872A5ADA2524 /* ShimmerData.swift */; };
+		70E58FE9CB6AEAD37FA7C921D0ABE2F0 /* DevKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33225AF89E190CFCF7AF93D55186A25E /* DevKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74796CEC29BC42BC38036B69B75D7E2E /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC11A09FC1B251094C27EA601B6B3EF /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7976CCD915287A78E9072B69C3B0B0C8 /* ShimmerBlocks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBF5E9C18A380CA0B992D60857E6CB4 /* ShimmerBlocks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C2A178082C07D8144A49A89F2F4B37B /* Pods-ShimmerBlocks_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13270A267C94554101B5B222129AF719 /* Pods-ShimmerBlocks_Tests-dummy.m */; };
 		7CB9B403FA5C968928C6672A53888A9A /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6188F80231880FFF991FA563B6AF6553 /* FBShimmeringView.m */; };
-		7E0A8DBA1139F2F6C06D7A1792921E1B /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B31B55543E1091C43972ED8EDE478A /* ReusableView.swift */; };
 		7E0D13B15D64B68C9F6CFE1DF61503DA /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 714E49AABD428948802CB260D88AB36D /* ALView+PureLayout.m */; };
 		8CD73346432648B2CCC70B9C8DAB0610 /* Pods-ShimmerBlocks_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB0D79B4A60CEDC8CF7162692C5B92 /* Pods-ShimmerBlocks_Example-dummy.m */; };
 		936A5E5BCED3DAE3E99B95AB4ABB892F /* FBShimmeringLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 139A83EBAC63AC7C895434ADE842495F /* FBShimmeringLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97FAEBB68223777A06F43B1F2BF95984 /* ShimmerContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F1599E2AF23263C2E73A2753DCF091 /* ShimmerContainerView.swift */; };
 		9820C5294B69A4F49068DFED6BF95000 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE2E4DED34AE193473AD8573EEB85DB /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D3261427A812372E7D254BB7CE78BE8 /* DevKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1FEAD8FE8EF47D7F9AECBA65C9D0A4 /* DevKit-dummy.m */; };
 		AB5A45A694127EBE99CCC567580CD2B7 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 567350581FDE85AFD361DDB89C2A4BB9 /* FBShimmeringLayer.m */; };
 		B0E38537B23159084625774CEEE32771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BD068AC2725E18B3B0AD32CE35C1D /* Foundation.framework */; };
 		B4FAFBCE8D48C06380D9F5A0A32139EB /* ShimmerBlocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F762175178FB91FA62442AD7970E806 /* ShimmerBlocks-dummy.m */; };
@@ -44,6 +42,7 @@
 		DBE1922DAAFB5552275C30C835203354 /* ShimmerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F7CCEA9C5CAC84FF1EC76A1857745 /* ShimmerSection.swift */; };
 		E0086B8FC31378E6AFCEFE94AB6DEB26 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A91A57047C39DEEC8A5BE9F67CF5D1 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3E7BF5A041090B3BA3D97AF74BA1420 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D41185CF3B8B5E0B56B9F33D360CCD4C /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E903F1860BB9A7D55427B37EC8A457DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BD068AC2725E18B3B0AD32CE35C1D /* Foundation.framework */; };
 		F04168E1BE116B6BCBC592F3D61412FB /* FBShimmering.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C09AC5FAA23B17E3B5AFB4D076F972 /* FBShimmering.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA49FEA659458FAA5D82268B272556D8 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 892EFEE31AD8D3CB757C107703233471 /* NSLayoutConstraint+PureLayout.m */; };
 		FC06CD7D66496F066F01906FED1E9DE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BD068AC2725E18B3B0AD32CE35C1D /* Foundation.framework */; };
@@ -89,7 +88,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1A76428457FF6EB1F58C2B53C38D5482;
+			remoteGlobalIDString = 352787D3E53926EF76C08D8712D604DE;
 			remoteInfo = DevKit;
 		};
 		F4C77B66F926C183D88D9D20E7A3ACF6 /* PBXContainerItemProxy */ = {
@@ -102,13 +101,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082EA1D81179F6F89AD349CDD1F98852 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		09E927E2F00A90A81BF62EE5F7130D98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CBF5E9C18A380CA0B992D60857E6CB4 /* ShimmerBlocks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShimmerBlocks-umbrella.h"; sourceTree = "<group>"; };
 		0F762175178FB91FA62442AD7970E806 /* ShimmerBlocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShimmerBlocks-dummy.m"; sourceTree = "<group>"; };
 		0FB14E80CA5CE4A81825BBE32E60ECF3 /* Pods-ShimmerBlocks_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShimmerBlocks_Example.modulemap"; sourceTree = "<group>"; };
 		1196F2EC628E813413B30E72F0BE4C03 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
 		13270A267C94554101B5B222129AF719 /* Pods-ShimmerBlocks_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShimmerBlocks_Tests-dummy.m"; sourceTree = "<group>"; };
+		1355B1E41039B6C1B9AC912C532A4D9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		139A83EBAC63AC7C895434ADE842495F /* FBShimmeringLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringLayer.h; path = FBShimmering/FBShimmeringLayer.h; sourceTree = "<group>"; };
 		1740320392D2228CD48A7A2ADFE5B0D7 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
 		18EAE5EE29F8A285512BBE157D83DFDF /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
@@ -116,11 +115,12 @@
 		1D238839318EB9A9F28F706D4A25485E /* Shimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FB71C062209A455573DA80B2BFFCCC /* Shimmer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Shimmer-dummy.m"; sourceTree = "<group>"; };
 		23F1599E2AF23263C2E73A2753DCF091 /* ShimmerContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmerContainerView.swift; path = ShimmerBlocks/Classes/ShimmerContainerView.swift; sourceTree = "<group>"; };
-		312B6A3F8A88F2B9E71B3080395C0582 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewCellExtension.swift; path = DevKit/DevKit/Classes/Extensions/UITableViewCellExtension/UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		31F1C2A6F8A950A41F8A4A5A944B6ED3 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33225AF89E190CFCF7AF93D55186A25E /* DevKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DevKit-umbrella.h"; sourceTree = "<group>"; };
 		333E090F1E0C7246C85AAFC3E52780DF /* Pods-ShimmerBlocks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShimmerBlocks_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		33C09AC5FAA23B17E3B5AFB4D076F972 /* FBShimmering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmering.h; path = FBShimmering/FBShimmering.h; sourceTree = "<group>"; };
 		340F0EAA1D80820399EF593ECB5178F2 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		34F037D3DA515F50E5C922213CF537F1 /* DevKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DevKit.modulemap; sourceTree = "<group>"; };
 		3648A2B8A517A9EBDA37DAF7272AD3C1 /* ShimmerBlocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShimmerBlocks-prefix.pch"; sourceTree = "<group>"; };
 		3738C0B712F566C757037C89E3C2BA21 /* Pods-ShimmerBlocks_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShimmerBlocks_Tests-resources.sh"; sourceTree = "<group>"; };
 		3AFD9DA539464AC4C793A92D304D860B /* Pods-ShimmerBlocks_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShimmerBlocks_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -129,6 +129,7 @@
 		445B07B26605E31A95DFB6B86F281A8D /* Pods-ShimmerBlocks_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShimmerBlocks_Example-frameworks.sh"; sourceTree = "<group>"; };
 		449B2230BDD8D3DCAF19835F48DD60B0 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
 		480038B48192EA7DC82322F1BCECDFB2 /* ShimmerBlocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShimmerBlocks.xcconfig; sourceTree = "<group>"; };
+		49DE79ED08385CC7EB1411ED69680C18 /* UITableViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewExtension.swift; path = DevKit/DevKit/Classes/Extensions/UITableViewExtension/UITableViewExtension.swift; sourceTree = "<group>"; };
 		49F33F19D8534BEE29CD83FC7F41F68C /* Pods-ShimmerBlocks_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShimmerBlocks_Example-umbrella.h"; sourceTree = "<group>"; };
 		4AEFCFBFB4DD95FC02D247575A9A1E53 /* Shimmer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Shimmer.modulemap; sourceTree = "<group>"; };
 		4FC5DF18B91D515DC355695134EF98A5 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
@@ -140,18 +141,19 @@
 		5EC11A09FC1B251094C27EA601B6B3EF /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
 		6188F80231880FFF991FA563B6AF6553 /* FBShimmeringView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringView.m; path = FBShimmering/FBShimmeringView.m; sourceTree = "<group>"; };
 		669B6D66A92D1B537446771116B02E54 /* Pods-ShimmerBlocks_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShimmerBlocks_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		69F2DA2BC71EE2067CB16EB00C77102E /* DevKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DevKit.modulemap; sourceTree = "<group>"; };
 		6A122568297F367B3F6126F1FE32DF50 /* DevKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DevKit.framework; path = DevKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2107467457397CB1F075D1CFF03007 /* DevKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DevKit-prefix.pch"; sourceTree = "<group>"; };
 		714E49AABD428948802CB260D88AB36D /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
-		752C52A9F8F788BDCF2ED277262D1D4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7589904238528C941A05F8598646F092 /* DevKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DevKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7644BC96CF533E1003C1C069AAEE0770 /* Shimmer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Shimmer.xcconfig; sourceTree = "<group>"; };
+		77A2A71916CEA5F6A54EFADD7F7297AA /* DevKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DevKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		790787A17E0F8CE3D5C4DE44F9B210CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		87B416AFBC6177333D08D1803DFA20CE /* Pods-ShimmerBlocks_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShimmerBlocks_Tests-umbrella.h"; sourceTree = "<group>"; };
 		883886EA29C963AAA95CE687391504B3 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
 		892EFEE31AD8D3CB757C107703233471 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
 		8DA6EEEED2D1EB7C9D652C64D094E1D3 /* ShimmerBlocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ShimmerBlocks.framework; path = ShimmerBlocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0AF1AB6AEE7D1059D390E6114D3DF1 /* Pods-ShimmerBlocks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShimmerBlocks_Tests.modulemap"; sourceTree = "<group>"; };
 		8F7BD068AC2725E18B3B0AD32CE35C1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		921021F97B981C9063D7868B0775BA69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3FE2ED1874BD78890987B0660D88E94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5F69E3E66939EE833186C069A1F0DC5 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,28 +161,24 @@
 		A8DB0D79B4A60CEDC8CF7162692C5B92 /* Pods-ShimmerBlocks_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShimmerBlocks_Example-dummy.m"; sourceTree = "<group>"; };
 		AB074EF344585B7AEE591FF8032369D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AC09B5498DA44B32CE8BC3E94BFE1BC4 /* Pods-ShimmerBlocks_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShimmerBlocks_Example-resources.sh"; sourceTree = "<group>"; };
-		AC32D76CB0814B886A8A9AB925EA0CE7 /* DevKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DevKit-prefix.pch"; sourceTree = "<group>"; };
 		AE986D093B57651B277B872A5ADA2524 /* ShimmerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmerData.swift; path = ShimmerBlocks/Classes/ShimmerData.swift; sourceTree = "<group>"; };
 		AF6687B1018DC715A8B65093292EFC56 /* Shimmer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Shimmer-umbrella.h"; sourceTree = "<group>"; };
 		B0A91A57047C39DEEC8A5BE9F67CF5D1 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
 		B2EC8F5465839437FC057274ABD96DC3 /* FBShimmeringView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringView.h; path = FBShimmering/FBShimmeringView.h; sourceTree = "<group>"; };
 		B4D505445F8CE3597A264EB530131679 /* ShimmerBlocks.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ShimmerBlocks.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4D998BCF82CA55BEA7AE4A7C06999E3 /* Pods-ShimmerBlocks_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShimmerBlocks_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B67E9DF958C0E3567322255C9FE48B85 /* ReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReusableView.swift; path = DevKit/DevKit/Classes/Utility/ReusableView/ReusableView.swift; sourceTree = "<group>"; };
 		B72FED40E9815D94660BC6A601F5C4C6 /* Shimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Shimmer-prefix.pch"; sourceTree = "<group>"; };
 		B7FE54F824F4A712035361BBBE4FC555 /* ShimmerBlocks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShimmerBlocks.modulemap; sourceTree = "<group>"; };
-		BC1B6246BCE3E85C230C09B318CB211D /* UITableViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewExtension.swift; path = DevKit/DevKit/Classes/Extensions/UITableViewExtension/UITableViewExtension.swift; sourceTree = "<group>"; };
 		C197E9D704145290822847D89D9E80F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2B31B55543E1091C43972ED8EDE478A /* ReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReusableView.swift; path = DevKit/DevKit/Classes/Protocols/ReusableView/ReusableView.swift; sourceTree = "<group>"; };
 		C3D760357B15FFDDF4D2A717CC7CE73C /* Pods-ShimmerBlocks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShimmerBlocks_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CB4E94FB9CADF7E5DAA39CD567993398 /* DevKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DevKit.xcconfig; sourceTree = "<group>"; };
+		D15F0C8DF7934BCE8CFD4C6325252FD7 /* DevKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DevKit-dummy.m"; sourceTree = "<group>"; };
 		D35E7C7479DE695A62D0C513A07B9F45 /* Shimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Shimmer.framework; path = Shimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41185CF3B8B5E0B56B9F33D360CCD4C /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 		DE2F7CCEA9C5CAC84FF1EC76A1857745 /* ShimmerSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmerSection.swift; path = ShimmerBlocks/Classes/ShimmerSection.swift; sourceTree = "<group>"; };
-		DF1FEAD8FE8EF47D7F9AECBA65C9D0A4 /* DevKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DevKit-dummy.m"; sourceTree = "<group>"; };
-		E1BE1DF6C62654F813B14A94008B3C56 /* DevKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DevKit.xcconfig; sourceTree = "<group>"; };
-		E82A7582B912A13E7D2C11CF83FC305A /* DevKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DevKit-umbrella.h"; sourceTree = "<group>"; };
 		EED3932B5F2518092CB35CD2E194759C /* Pods-ShimmerBlocks_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShimmerBlocks_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF1C22D272E234CDAFEF6243310E583F /* Pods-ShimmerBlocks_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShimmerBlocks_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F3D3E9801F069DCC8DE4A645AF0BCC9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FFA53FF5F24774EEB07EAF3E56FC858D /* Pods-ShimmerBlocks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShimmerBlocks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -227,37 +225,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5910D465B6502EA5D8BE1A1959C34F5 /* Frameworks */ = {
+		B43EE5D4FFED6BE928B01F1348AEFC76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				026629F5AED204E60BCDCF8BC9B3C50F /* Foundation.framework in Frameworks */,
+				E903F1860BB9A7D55427B37EC8A457DE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		092F12AD1664820459AC6F3BEE4EFF00 /* ReusableView */ = {
-			isa = PBXGroup;
-			children = (
-				C2B31B55543E1091C43972ED8EDE478A /* ReusableView.swift */,
-			);
-			name = ReusableView;
-			sourceTree = "<group>";
-		};
-		0F3E96032C43CB434906773D94F3313F /* DevKit */ = {
-			isa = PBXGroup;
-			children = (
-				CE978810EAB5A3400625A0611D031E9E /* Extensions */,
-				1FE389E7E6B8CFA85C0DFC261197805A /* Pod */,
-				FE43BD61BEF394875065DDD0D592EC70 /* Protocols */,
-				6AAB5A3A480F67363E8FDB2B67E5B36C /* Support Files */,
-			);
-			name = DevKit;
-			path = ../DevKit;
-			sourceTree = "<group>";
-		};
 		172EC203F8F7D682762095EE8A2FCA2A /* ShimmerBlocks */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,16 +247,6 @@
 			);
 			name = ShimmerBlocks;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		1FE389E7E6B8CFA85C0DFC261197805A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7589904238528C941A05F8598646F092 /* DevKit.podspec */,
-				082EA1D81179F6F89AD349CDD1F98852 /* LICENSE */,
-				F3D3E9801F069DCC8DE4A645AF0BCC9E /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		314E367FAF7D6C31F127D0D41894748A /* Support Files */ = {
@@ -295,6 +263,20 @@
 			path = "../Target Support Files/PureLayout";
 			sourceTree = "<group>";
 		};
+		4805C524B062305A78521089D9118410 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34F037D3DA515F50E5C922213CF537F1 /* DevKit.modulemap */,
+				CB4E94FB9CADF7E5DAA39CD567993398 /* DevKit.xcconfig */,
+				D15F0C8DF7934BCE8CFD4C6325252FD7 /* DevKit-dummy.m */,
+				6C2107467457397CB1F075D1CFF03007 /* DevKit-prefix.pch */,
+				33225AF89E190CFCF7AF93D55186A25E /* DevKit-umbrella.h */,
+				921021F97B981C9063D7868B0775BA69 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/DevKit";
+			sourceTree = "<group>";
+		};
 		495DAE0B7B33E0282B830AA70FD96EDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,14 +285,6 @@
 				C6320AFF5E0C67B03FD688D49370321B /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6857FE896E08CD29D1E175427B02E088 /* UITableViewCellExtension */ = {
-			isa = PBXGroup;
-			children = (
-				312B6A3F8A88F2B9E71B3080395C0582 /* UITableViewCellExtension.swift */,
-			);
-			name = UITableViewCellExtension;
 			sourceTree = "<group>";
 		};
 		6A6B70B519DC76B010EA5F7DC909C6A6 /* PureLayout */ = {
@@ -329,20 +303,6 @@
 			);
 			name = PureLayout;
 			path = PureLayout;
-			sourceTree = "<group>";
-		};
-		6AAB5A3A480F67363E8FDB2B67E5B36C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				69F2DA2BC71EE2067CB16EB00C77102E /* DevKit.modulemap */,
-				E1BE1DF6C62654F813B14A94008B3C56 /* DevKit.xcconfig */,
-				DF1FEAD8FE8EF47D7F9AECBA65C9D0A4 /* DevKit-dummy.m */,
-				AC32D76CB0814B886A8A9AB925EA0CE7 /* DevKit-prefix.pch */,
-				E82A7582B912A13E7D2C11CF83FC305A /* DevKit-umbrella.h */,
-				752C52A9F8F788BDCF2ED277262D1D4B /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/DevKit";
 			sourceTree = "<group>";
 		};
 		6F940B83BAB543ECC02231518E4260EA /* Products */ = {
@@ -420,6 +380,14 @@
 			path = "Target Support Files/Pods-ShimmerBlocks_Tests";
 			sourceTree = "<group>";
 		};
+		876B4555612C33FCEF6B12FB1E4A4123 /* UITableViewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				49DE79ED08385CC7EB1411ED69680C18 /* UITableViewExtension.swift */,
+			);
+			name = UITableViewExtension;
+			sourceTree = "<group>";
+		};
 		881D7FAA5CCF233FB9E3E3FECA8E183E /* Shimmer */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,18 +402,28 @@
 			path = Shimmer;
 			sourceTree = "<group>";
 		};
-		961508CED59420F789F7DE2A535DC482 /* UITableViewExtension */ = {
+		8EB4803D2823B29B4123332EBFA3FE61 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				BC1B6246BCE3E85C230C09B318CB211D /* UITableViewExtension.swift */,
+				EA330DD3512F3DFF362F31856B59C692 /* ReusableView */,
 			);
-			name = UITableViewExtension;
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		9874629FF7BC0A09BCD93FC22FE538AE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				77A2A71916CEA5F6A54EFADD7F7297AA /* DevKit.podspec */,
+				1355B1E41039B6C1B9AC912C532A4D9D /* LICENSE */,
+				790787A17E0F8CE3D5C4DE44F9B210CE /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9973F1A1F9D0846B020784A9805001E4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F3E96032C43CB434906773D94F3313F /* DevKit */,
+				CBBF3EADEFE13D99D2CB66A8FD78E75F /* DevKit */,
 				172EC203F8F7D682762095EE8A2FCA2A /* ShimmerBlocks */,
 			);
 			name = "Development Pods";
@@ -501,21 +479,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CE978810EAB5A3400625A0611D031E9E /* Extensions */ = {
+		C99D617C44BF185B5DC9C9E0576BC5C2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				6857FE896E08CD29D1E175427B02E088 /* UITableViewCellExtension */,
-				961508CED59420F789F7DE2A535DC482 /* UITableViewExtension */,
+				876B4555612C33FCEF6B12FB1E4A4123 /* UITableViewExtension */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
 		};
-		FE43BD61BEF394875065DDD0D592EC70 /* Protocols */ = {
+		CBBF3EADEFE13D99D2CB66A8FD78E75F /* DevKit */ = {
 			isa = PBXGroup;
 			children = (
-				092F12AD1664820459AC6F3BEE4EFF00 /* ReusableView */,
+				C99D617C44BF185B5DC9C9E0576BC5C2 /* Extensions */,
+				9874629FF7BC0A09BCD93FC22FE538AE /* Pod */,
+				4805C524B062305A78521089D9118410 /* Support Files */,
+				8EB4803D2823B29B4123332EBFA3FE61 /* Utility */,
 			);
-			name = Protocols;
+			name = DevKit;
+			path = ../DevKit;
+			sourceTree = "<group>";
+		};
+		EA330DD3512F3DFF362F31856B59C692 /* ReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				B67E9DF958C0E3567322255C9FE48B85 /* ReusableView.swift */,
+			);
+			name = ReusableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -526,14 +515,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				48A0DF3869B222AB0AAC9ED20F2690CE /* Pods-ShimmerBlocks_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37CCC452EF66E35E60F9E3498FB88E45 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50F94FE25EBDD8B5B7E0AF9EE0238B5E /* DevKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,16 +559,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5A876A4C8A61DE80E41CFF4BAA66916 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E58FE9CB6AEAD37FA7C921D0ABE2F0 /* DevKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1A76428457FF6EB1F58C2B53C38D5482 /* DevKit */ = {
+		352787D3E53926EF76C08D8712D604DE /* DevKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65CEF71D8D5646B323D81C1129E43A2D /* Build configuration list for PBXNativeTarget "DevKit" */;
+			buildConfigurationList = BA455DB6ADCF1E85B41E6292EBC736FA /* Build configuration list for PBXNativeTarget "DevKit" */;
 			buildPhases = (
-				9805997C952029860439686F8989A9EB /* Sources */,
-				E5910D465B6502EA5D8BE1A1959C34F5 /* Frameworks */,
-				37CCC452EF66E35E60F9E3498FB88E45 /* Headers */,
+				FB41770D1D3551E6A75CFF06E8482A3E /* Sources */,
+				B43EE5D4FFED6BE928B01F1348AEFC76 /* Frameworks */,
+				B5A876A4C8A61DE80E41CFF4BAA66916 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -711,7 +700,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A76428457FF6EB1F58C2B53C38D5482 /* DevKit */,
+				352787D3E53926EF76C08D8712D604DE /* DevKit */,
 				69D730AF664FFBE239979FE454FD6FC8 /* Pods-ShimmerBlocks_Example */,
 				47E0150DF8E6E293076E5C885FA058A4 /* Pods-ShimmerBlocks_Tests */,
 				AB1EDB72F893838819683C2D3B572123 /* PureLayout */,
@@ -759,17 +748,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9805997C952029860439686F8989A9EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D3261427A812372E7D254BB7CE78BE8 /* DevKit-dummy.m in Sources */,
-				7E0A8DBA1139F2F6C06D7A1792921E1B /* ReusableView.swift in Sources */,
-				27D3E36B8B18889542ED3224C75690C8 /* UITableViewCellExtension.swift in Sources */,
-				10CA8D25CD345A6648C54B4697B4E6E6 /* UITableViewExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AC43970A7DD06C0B113885EE84BAB91D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -778,6 +756,16 @@
 				97FAEBB68223777A06F43B1F2BF95984 /* ShimmerContainerView.swift in Sources */,
 				6D340B85224227A94DC1E336543F0D76 /* ShimmerData.swift in Sources */,
 				DBE1922DAAFB5552275C30C835203354 /* ShimmerSection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB41770D1D3551E6A75CFF06E8482A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0B714332260E2A07B48AA3A4A08728 /* DevKit-dummy.m in Sources */,
+				340667FD389DEDD943363BA6FDCC9DF4 /* ReusableView.swift in Sources */,
+				252EE82C05018332AE5F47FB95CF3C2C /* UITableViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,7 +799,7 @@
 		26EF87A1D3F2D1CCA123FD5AC067BA05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DevKit;
-			target = 1A76428457FF6EB1F58C2B53C38D5482 /* DevKit */;
+			target = 352787D3E53926EF76C08D8712D604DE /* DevKit */;
 			targetProxy = DD08C32E61B67B01BBC36D2309F32C3F /* PBXContainerItemProxy */;
 		};
 		B18A56014DE7C33FD4A8131D11B6251E /* PBXTargetDependency */ = {
@@ -925,39 +913,6 @@
 			};
 			name = Debug;
 		};
-		25E3471181C602CE719166E3B9E0CE34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1BE1DF6C62654F813B14A94008B3C56 /* DevKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DevKit/DevKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DevKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DevKit/DevKit.modulemap";
-				PRODUCT_MODULE_NAME = DevKit;
-				PRODUCT_NAME = DevKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		2E9BE42B3C1C8C478111A85708AA9923 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D6276E2C9F3C416D09E02F864460F84 /* Pods-ShimmerBlocks_Tests.release.xcconfig */;
@@ -1016,6 +971,38 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A931382A615372CB4DE4A6AA4D28E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4E94FB9CADF7E5DAA39CD567993398 /* DevKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DevKit/DevKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DevKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DevKit/DevKit.modulemap";
+				PRODUCT_MODULE_NAME = DevKit;
+				PRODUCT_NAME = DevKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1154,6 +1141,39 @@
 			};
 			name = Release;
 		};
+		A739D9CDFCD8348586DBAE47C4AB5633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4E94FB9CADF7E5DAA39CD567993398 /* DevKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DevKit/DevKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DevKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DevKit/DevKit.modulemap";
+				PRODUCT_MODULE_NAME = DevKit;
+				PRODUCT_NAME = DevKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		AB5FF82180388FAADA687D3FA4C0C56B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 333E090F1E0C7246C85AAFC3E52780DF /* Pods-ShimmerBlocks_Example.debug.xcconfig */;
@@ -1183,38 +1203,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E030D47EC2AEBB94511918F800608621 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1BE1DF6C62654F813B14A94008B3C56 /* DevKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DevKit/DevKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DevKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DevKit/DevKit.modulemap";
-				PRODUCT_MODULE_NAME = DevKit;
-				PRODUCT_NAME = DevKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1364,15 +1352,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65CEF71D8D5646B323D81C1129E43A2D /* Build configuration list for PBXNativeTarget "DevKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E030D47EC2AEBB94511918F800608621 /* Debug */,
-				25E3471181C602CE719166E3B9E0CE34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		80BED5A1A25B835AF393E4B394EC59D9 /* Build configuration list for PBXNativeTarget "ShimmerBlocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1387,6 +1366,15 @@
 			buildConfigurations = (
 				FD6BC5D15D4C1CF7644696E8F140B6D7 /* Debug */,
 				2E9BE42B3C1C8C478111A85708AA9923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA455DB6ADCF1E85B41E6292EBC736FA /* Build configuration list for PBXNativeTarget "DevKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A931382A615372CB4DE4A6AA4D28E92 /* Debug */,
+				A739D9CDFCD8348586DBAE47C4AB5633 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,8 +6,7 @@ target 'ShimmerBlocks_Example' do
 
   pod 'ShimmerBlocks', :path => '../'
 
-  pod 'DevKit', :path => './DevKit', :subspecs => ['Extensions/UITableViewCellExtension',
-                                                   'Extensions/UITableViewExtension']
+  pod 'DevKit', :path => './DevKit', :subspecs => ['Extensions/UITableViewExtension']
 
   pod 'PureLayout', '3.0.2'
 

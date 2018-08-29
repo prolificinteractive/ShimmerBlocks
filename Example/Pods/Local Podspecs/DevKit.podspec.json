@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "DevKit/DevKit/Classes/**/*",
+  "source_files": "DevKit/DevKit/Classes/*",
   "subspecs": [
     {
       "name": "TransitioningNavigationView",
@@ -36,49 +36,50 @@
       "source_files": "DevKit/DevKit/Classes/Views/TransitioningNavigationView/*"
     },
     {
-      "name": "CalendarPermissionsValidator",
-      "platforms": {
-        "ios": "11.0"
-      },
-      "dependencies": {
-        "DevKit/Extensions/StringExtension": [
-
-        ],
-        "DevKit/Extensions/UIAlertControllerExtension": [
-
-        ],
-        "DevKit/Extensions/UIApplicationExtension": [
-
-        ]
-      },
-      "source_files": "DevKit/DevKit/Classes/Utility/Validators/CalendarPermissionsValidator/*"
-    },
-    {
-      "name": "ImagePickerValidator",
-      "dependencies": {
-        "DevKit/Extensions/StringExtension": [
-
-        ]
-      },
-      "source_files": "DevKit/DevKit/Classes/Utility/Validators/ImagePickerValidator/*"
-    },
-    {
-      "name": "Protocols",
+      "name": "Utility",
       "subspecs": [
         {
+          "name": "CalendarPermissionsValidator",
+          "platforms": {
+            "ios": "11.0"
+          },
+          "dependencies": {
+            "DevKit/Extensions/StringExtension": [
+
+            ],
+            "DevKit/Extensions/UIAlertControllerExtension": [
+
+            ],
+            "DevKit/Extensions/UIApplicationExtension": [
+
+            ]
+          },
+          "source_files": "DevKit/DevKit/Classes/Utility/Validators/CalendarPermissionsValidator/*"
+        },
+        {
+          "name": "ImagePickerValidator",
+          "dependencies": {
+            "DevKit/Extensions/StringExtension": [
+
+            ]
+          },
+          "source_files": "DevKit/DevKit/Classes/Utility/Validators/ImagePickerValidator/*"
+        },
+        {
           "name": "KeyboardObserver",
-          "source_files": "DevKit/DevKit/Classes/Protocols/KeyboardObserver/*"
+          "source_files": "DevKit/DevKit/Classes/Utility/KeyboardObserver/*"
         },
         {
           "name": "ReusableView",
-          "source_files": "DevKit/DevKit/Classes/Protocols/ReusableView/*"
+          "source_files": "DevKit/DevKit/Classes/Utility/ReusableView/*"
         }
       ]
     },
     {
       "name": "Extensions",
+      "source_files": "DevKit/DevKit/Classes/Extensions/*",
       "dependencies": {
-        "DevKit/Protocols/ReusableView": [
+        "DevKit/Utility/ReusableView": [
 
         ]
       },
@@ -99,12 +100,12 @@
           "source_files": "DevKit/DevKit/Classes/Extensions/UIApplicationExtension/*"
         },
         {
-          "name": "UITableViewCellExtension",
-          "source_files": "DevKit/DevKit/Classes/Extensions/UITableViewCellExtension/*"
-        },
-        {
           "name": "UITableViewExtension",
           "source_files": "DevKit/DevKit/Classes/Extensions/UITableViewExtension/*"
+        },
+        {
+          "name": "UIColorExtension",
+          "source_files": "DevKit/DevKit/Classes/Extensions/UIColorExtension/*"
         }
       ]
     },
