@@ -121,9 +121,9 @@ A `ShimmerSection` consists of a width and height that will be used to size the 
 
 ```swift
 public static func generate(minWidth: CGFloat,
-							              height: CGFloat,
-							              totalWidth: CGFloat,
-							              maxNumberOfSections: Int) -> [ShimmerSection]
+                            height: CGFloat,
+                            totalWidth: CGFloat,
+                            maxNumberOfSections: Int) -> [ShimmerSection]
 ```
 
 To create a more custom look, `ShimmerSections` can be random generated with a few parameters. 
